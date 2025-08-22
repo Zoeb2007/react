@@ -8,6 +8,7 @@ setUser(prev=>prev+1)
   return (
     <div>{user}
         <button onClick={change}>Incriment</button>
+        <button></button>
     </div>
   )
 }
